@@ -1,0 +1,105 @@
+:root {
+    --primaryfont: 'Oswald', serif;
+    /* --main-font-color: rgb(238, 115, 146); */
+    --main-font-color: black;
+  }
+  
+  *,
+  *:before,
+  *:after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+  }
+  
+  body,
+  html {
+    height: 100%;
+  
+  }
+  /* Background image */
+  .backg {
+    /* background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%); */
+    
+/* background: linear-gradient(312deg, rgba(53,132,185,1) 0%, rgba(2,28,43,1) 100%); */
+
+background-image: url(https://img.freepik.com/free-vector/white-background-with-triangle-patterns_1017-18410.jpg?w=1800&t=st=1670677125~exp=1670677725~hmac=f484ef5fa4284f12485ab81614cb4ddb12bf7005b18eee1d6e8e0bdec5071eca);
+height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    margin-bottom: 60px;
+  }
+  
+  nav ul li{
+    padding: 20px;
+    min-width: min-content;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    font-family: var(--primaryfont);
+    color: var(--main-font-color);
+    font-size: 1.6rem;
+  }
+  
+  .logo  a {
+    color: black;
+    font-family: var(--primaryfont);
+   
+    font-size: 1.8rem;
+    float: left;
+  }
+  
+
+  .jumbotron {
+    background: none;
+  }
+
+  .bio {
+    align-items: center;
+    justify-content: center;
+   
+  }
+
+  .bio img {
+    max-width: 300px;
+    height: auto;
+   
+    border-radius: 50%;
+    justify-self: center;
+    
+  }
+
+  .hero-copy {
+    text-align: center;
+    color: var(--main-font-color);
+    font-family: var(--primaryfont);
+    margin: 0 auto;
+  }
+
+  .card {
+    height: 500px;
+    margin: 10px auto;
+  }
+
+  .card-img-top {
+    /* width: 100%; */
+    max-height: 300px;
+    min-height: 300px;
+    object-fit:cover;
+    padding: 5px;
+}
+
+.card-body {
+    display: flex;
+   justify-content: flex-end;
+    flex-direction: column;
+}
