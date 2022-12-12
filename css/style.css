@@ -122,6 +122,10 @@ nav ul li a {
     flex-direction: column;
 }
 
+.card-text {
+    font-size: 15px;
+}
+
 /* Skills section */
 .skills {
     padding-bottom: 40px;
@@ -136,6 +140,10 @@ nav ul li a {
 .skills-item:hover,
 .skills-item:focus {
     border: 2px solid !important;
+}
+
+.about-me {
+    background-image: url(https://img.freepik.com/free-vector/white-background-with-triangle-patterns_1017-18410.jpg?w=1800&t=st=1670677125~exp=1670677725~hmac=f484ef5fa4284f12485ab81614cb4ddb12bf7005b18eee1d6e8e0bdec5071eca);
 }
 
 .about-me-copy {
@@ -160,4 +168,8 @@ nav ul li a {
 
 .contact-form {
     padding: 30px;
+}
+
+button:hover, .btn:hover{
+    box-shadow: 5px 5px 8px #888888;
 }
