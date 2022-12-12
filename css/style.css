@@ -47,6 +47,11 @@ nav ul li a {
     font-size: 1.6rem;
 }
 
+nav ul li a:hover, nav ul li a:focus {
+    background-color: black;
+    color: white;
+}
+
 .logo a {
     color: black;
     font-family: var(--primaryfont);
