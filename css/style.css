@@ -55,10 +55,10 @@ nav ul li a:hover, nav ul li a:focus {
 .logo a {
     color: black;
     font-family: var(--primaryfont);
-
     font-size: 1.8rem;
     float: left;
 }
+
 /* Jumbotron */
 .jumbotron {
     background: none;
@@ -95,6 +95,7 @@ nav ul li a:hover, nav ul li a:focus {
     font-size: 24px;
     border-radius: 30px;
 }
+
 /* My work section */
 .mywork {
     background-color: rgb(243, 243, 243);
@@ -125,6 +126,7 @@ nav ul li a:hover, nav ul li a:focus {
     display: flex;
     justify-content: flex-end;
     flex-direction: column;
+    align-items: center;
 }
 
 .card-text {
@@ -147,6 +149,8 @@ nav ul li a:hover, nav ul li a:focus {
     border: 2px solid !important;
 }
 
+/* About me section */
+
 .about-me {
     background-image: url(https://img.freepik.com/free-vector/white-background-with-triangle-patterns_1017-18410.jpg?w=1800&t=st=1670677125~exp=1670677725~hmac=f484ef5fa4284f12485ab81614cb4ddb12bf7005b18eee1d6e8e0bdec5071eca);
 }
@@ -155,24 +159,21 @@ nav ul li a:hover, nav ul li a:focus {
     padding: 20px;
 }
 
+.contact-form {
+    padding: 30px;
+}
+
 /* Footer section */
 
 .contacts {
     padding: 20px;
     background-color: black;
 }
-.footer-copy {
-    color: white;
-}
 
 .contacts-item {
     padding: 20px;
     font-size: 24px;
     color: white;
-}
-
-.contact-form {
-    padding: 30px;
 }
 
 button:hover, .btn:hover{
