@@ -36,6 +36,7 @@ height: 100%;
     justify-content: space-evenly;
     list-style: none;
     margin-bottom: 60px;
+    max-height: 20vh;
   }
   
   nav ul li{
@@ -58,9 +59,13 @@ height: 100%;
     float: left;
   }
   
-
   .jumbotron {
     background: none;
+    align-content: center;   
+    position:relative;
+    top: 15vh;
+    max-height: 100vh;
+
   }
 
   .bio {
@@ -71,10 +76,10 @@ height: 100%;
 
   .bio img {
     max-width: 300px;
-    height: auto;
+    max-height: 300px;
    
     border-radius: 50%;
-    justify-self: center;
+   
     
   }
 
@@ -82,7 +87,25 @@ height: 100%;
     text-align: center;
     color: var(--main-font-color);
     font-family: var(--primaryfont);
-    margin: 0 auto;
+    margin: 15px;
+    padding: 10px;
+  }
+
+  .scroll-btn {
+    padding: 6px;
+    font-size: 50px;
+  }
+
+  .mywork {
+    background-color: rgb(243, 243, 243);
+    padding-bottom: 40px;
+  }
+
+  .heading {
+    text-align: center;
+    padding: 30px;
+    font-family: var(--primaryfont);
+    font-size: 3em;
   }
 
   .card {
@@ -102,4 +125,33 @@ height: 100%;
     display: flex;
    justify-content: flex-end;
     flex-direction: column;
+}
+
+.skills {
+    padding-bottom: 40px;
+    background-color: rgb(243, 243, 243);;
+}
+
+.skills-item {
+    padding: 20px;
+    border-radius: 12px;
+}
+
+.skills-item:hover, .skills-item:focus{
+    border: 2px solid !important;
+}
+
+.about-me-copy {
+padding:20px;
+}
+
+.contacts {
+    padding: 20px;
+}
+.contacts-item {
+    padding: 20px;
+}
+
+.contact-form {
+    padding: 30px;
 }
