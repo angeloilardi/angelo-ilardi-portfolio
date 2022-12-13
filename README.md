@@ -1,6 +1,6 @@
 # Bootstrap-Portfolio
 
-## Descrition
+## Description
 
 This portoflio showcases a list of all my works with previews, a personal bio, my skills and a contact form for those who want to get in touch.
 
