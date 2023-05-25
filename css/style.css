@@ -50,7 +50,7 @@ html {
     align-content: center;
     position: relative;
     top: 8%;
-    max-height: 100svh;
+    min-height: 100svh;
     object-fit: cover;
 }
 
