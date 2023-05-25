@@ -50,7 +50,7 @@ html {
     align-content: center;
     position: relative;
     top: 8%;
-    max-height: 100vh;
+    max-height: 100svh;
     object-fit: cover;
 }
 
@@ -106,7 +106,7 @@ html {
 }
 
 .card-img-top {
-    /* width: 100%; */
+    width: 100%;
     max-height: 300px;
     min-height: 300px;
     object-fit: cover;
