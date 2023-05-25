@@ -1,4 +1,4 @@
-# Bootstrap-Portfolio
+# Angelo Ilardi Portfolio
 
 ## Description
 
@@ -12,7 +12,7 @@ N/A
 
 You can browse my work and click on the previews that will take you to the published pages.
 
-The page is available at https://helldorado82.github.io/Bootstrap-Portfolio
+The page is available at https://helldorado82.github.io/angelo-ilardi-portfolio/
 
 
 
